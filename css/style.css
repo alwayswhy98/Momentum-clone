@@ -41,6 +41,15 @@ img {
   text-align: center;
 }
 
+#login-form input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 150px;
+  background: none;
+  border-bottom: solid 1px white;
+}
+
 #todo-form input {
   border-top: none;
   border-right: none;
@@ -50,13 +59,15 @@ img {
   border-bottom: solid 1px white;
 }
 
-#todo-form input::placeholder {
+#todo-form input::placeholder,
+#login-form input::placeholder {
   color: white;
   font-size: 15px;
   text-align: center;
 }
 
-#todo-form input:focus {
+#todo-form input:focus,
+#login-form input:focus {
   color: white;
   font-size: 15px;
   text-align: center;
